@@ -1,0 +1,1016 @@
+{
+  "intents": [
+    {
+      "intent": "Greetings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "1"
+        },
+        {
+          "text": "Good morning !"
+        },
+        {
+          "text": "namaste"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi!"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Hii"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "good afternoon !"
+        },
+        {
+          "text": "good evening !"
+        },
+        {
+          "text": "greetings!"
+        },
+        {
+          "text": "hey whats up!"
+        },
+        {
+          "text": "hi what's up!"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "gm"
+        },
+        {
+          "text": "morning"
+        },
+        {
+          "text": "ga"
+        },
+        {
+          "text": "ge"
+        },
+        {
+          "text": "afternoon"
+        },
+        {
+          "text": "evening"
+        },
+        {
+          "text": "Menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "thanks !"
+        },
+        {
+          "text": "ok thank you"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "thank you!"
+        },
+        {
+          "text": "thank you !"
+        },
+        {
+          "text": "much appreciated"
+        },
+        {
+          "text": "thanks!"
+        },
+        {
+          "text": "thanks for the information"
+        },
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you so much"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "thank u"
+        },
+        {
+          "text": "great! thanks"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "thnk"
+        },
+        {
+          "text": "ty"
+        },
+        {
+          "text": "thnx"
+        },
+        {
+          "text": "thank you very much"
+        }
+      ],
+      "description": "End of Conversation"
+    },
+    {
+      "intent": "menu_info",
+      "examples": [
+        {
+          "text": "Menu"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "other_info",
+      "examples": [
+        {
+          "text": "I want some information regarding COVID19 vaccine"
+        },
+        {
+          "text": "I want some information on quarantine centres in my area"
+        },
+        {
+          "text": "I want some information on COVID19 hospitals"
+        },
+        {
+          "text": "9"
+        },
+        {
+          "text": "I want some information regarding corona virus vaccine"
+        },
+        {
+          "text": "How many samples have been tested?"
+        },
+        {
+          "text": "i want information regarding lockdown"
+        },
+        {
+          "text": "I want some information on corona virus patients in my area"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "option_details",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "3",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "5",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "6",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "8",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "info_examples",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "containment",
+          "synonyms": [
+            "isolation",
+            "confinement",
+            "lockdown"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "testing",
+          "synonyms": [
+            "tests",
+            "trials",
+            "tested",
+            "trialed",
+            "testings",
+            "sample",
+            "sample tests"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "coronavirus",
+          "synonyms": [
+            "coronaviruses",
+            "coronavirus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "schools",
+          "synonyms": [
+            "college",
+            "educational",
+            "teacher",
+            "campus"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vaccine",
+          "synonyms": [
+            "vaccination",
+            "immunization",
+            "vaccines",
+            "immunizations"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hospitals",
+          "synonyms": [
+            "hospital",
+            "clinics",
+            "medical",
+            "healthcare",
+            "nurses",
+            "hopsitals",
+            "clinic",
+            "health",
+            "hosptial",
+            "medicine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lockdown",
+          "synonyms": [
+            "lockdowns",
+            "curfew",
+            "containment",
+            "lock-down"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "quarantine",
+          "synonyms": [
+            "quarantining",
+            "lockdown",
+            "outbreak",
+            "quarentine",
+            "epidemic",
+            "quarantines"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "zones",
+          "synonyms": [
+            "zone",
+            "areas",
+            "regions",
+            "districts",
+            "area",
+            "region",
+            "district",
+            "locations",
+            "places",
+            "location"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Responses by Menu",
+      "parent": "node_6_1590245011019",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@option_details",
+      "dialog_node": "node_7_1590238922381"
+    },
+    {
+      "type": "standard",
+      "title": "Other_responses",
+      "parent": "node_3_1590248482780",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@info_examples || #COVID_Prevention",
+      "dialog_node": "node_7_1590248602868"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "ICMR: Total 1.03+ lakh samples tested in last 24 hours. Total tests cross 27+ lakh"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1590248602868",
+      "conditions": "@info_examples:testing",
+      "dialog_node": "response_6_1590252164648",
+      "previous_sibling": "response_4_1590251280751"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "College sessions will begin in August for current students and September for new ones, the University Grants Commission said on Wednesday. The admission process in universities will also begin from August. Schools and colleges have been closed across the country since last month amid the coronavirus pandemic."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The UGC has said the lockdown period may be considered as \"deemed to be attended\" by all students and if the situation demands, the universities can have summer vacations for 30 days in June."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "\"Intermediate students will be graded based on internal assessment of the present and previous semester. In states where the COVID-19 situation has normalised, there will be exams in the month of July. For terminal semester students, exams will be held in July,\" the UGC said."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "\"Universities may follow a six-day week pattern and devise proforma to record travel or stay history of staff and students for the lockdown period. Extension of six months will be granted to MPhil, PhD students and viva-voice be conducted through video conference,\" it added."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "\"A COVID-19 cell will be constituted in every university which will be empowered to solve the issues of students related to academic calendar and examinations and a COVID-19 cell in the UGC will be created for faster decision-making,\" the commission said."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590248602868",
+      "conditions": "@info_examples:schools",
+      "dialog_node": "response_4_1590251280751",
+      "previous_sibling": "response_3_1590250579041"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Up to 30 million Covid-19 vaccine doses could be could be available by September, the Government of UK has said."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Oxford vaccine enters the advanced trials and ICMR finds HCQ effective, expands its use. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "A phase-1 trial using a single dose of a vaccine (Ad5-nCoV) that uses a recombinant adenovirus type-5 vector that carries the genetic material that codes for spike glycoprotein of novel coronavirus was found to be safe, well-tolerated and able to generate immune responses against the virus. The adenovirus is a weakened common cold virus."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The first COVID-19 vaccine to reach phase I clinical trial is safe, well-tolerated, and capable of generating an immune response against the novel coronavirus in humans, says a new research published in The Lancet journal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590248602868",
+      "conditions": "@info_examples:vaccine",
+      "dialog_node": "response_3_1590250579041",
+      "previous_sibling": "response_10_1590248690922"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please stay at home. Essential commodities, medicines, etc would be available during Lockdown  Lockdown extended till 31.05.2020."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590248602868",
+      "conditions": "@info_examples:lockdown",
+      "dialog_node": "response_10_1590248690922"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Manage stress with the help of Yoga https://www.youtube.com/watch?v=wmmVeWm16_Q       "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Sweating a possibility of corona infection https://www.youtube.com/watch?v=cDph0kZIzvs"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Guidelines for Quarantine/ Isolation Facility owners https://www.youtube.com/watch?v=a1ofsXRtD5s "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Do not consume hydroxychloroquine without doctor's advice. https://www.youtube.com/watch?v=jbxJyuxQ3N8"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for the options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:2",
+      "dialog_node": "response_10_1590241142405",
+      "previous_sibling": "response_9_1590239181785"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Centre on Saturday launched an online database for migrants to monitor their movement and help them travel to their native places.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "On 1 May, the central government permitted the Indian Railways to launch \"Shramik Special\" trains for the migrant workers and others stranded. ₹1,000 crore from the PM CARES Fund was allocated for the support of migrant workers on 13 May."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "On 14 May, FM Sitharaman further announced free food grains for the migrant workers, targeting 80 million migrant workers by spending ₹35 billion (US$490 million). "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:3",
+      "dialog_node": "response_10_1590242232657",
+      "previous_sibling": "response_10_1590241142405"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For medical help in India please reach out to the 24/7 Control Room.  📞 Phone: +91-11-23978046 ☎️ Toll-Free Number: 1075 ✉️ Email: ncov2019@gov.in      "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For Behavioural Health: Psycho-Social  📞 08046110007  MHA Central Control Room for COVID-19  ☎️ Toll-Free Number: 1930  ☎️ Toll-Free Number: 1944 exclusively for persons from North East States"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For Visa related queries 📞 01124300666 ✉️ support.covid19-boi@gov.in"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "For queries from a person outside India. Please contact Ministry of External Affairs(MEA), GOI 📞 1800118797 ✉️ covid19@mea.gov.in"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:8",
+      "dialog_node": "response_2_1590243364455",
+      "previous_sibling": "response_2_1590243349606"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Ministry of Labour and Employment has issued advisories to employers to not terminate their employees from their jobs or reduce their wages. A recent advisory by the Ministry of Labour and Employment to all public and private employers to support their employees and workers will come as a relief for them.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The Ministry of Labour and Employment has issued advisories to public and private employers and establishments to not terminate their employees, particularly casual or contractual employees, from their jobs or reduce their wages."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "As per the advisory, if any worker takes leave, he or she should be deemed to be on duty without any consequential deduction in wages for this period. Further, if the place of employment is to be made non-operational due to Covid 19, the employees of such unit will be deemed to be on duty.  The advisory also realizes that the termination of the employee from the job or reduction in wages in this scenario will further deepen the crises and will not only weaken the financial condition of the employee but also hamper their morale to combat their fight with this epidemic."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:5",
+      "dialog_node": "response_4_1590243258277",
+      "previous_sibling": "response_10_1590242800699"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can visit the Facebook page to know about Myths & Facts -> https://www.facebook.com/pibfactcheck/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:7",
+      "dialog_node": "response_2_1590243349606",
+      "previous_sibling": "response_5_1590243328126"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On May 12, Prime Minister Narendra Modi announced a ₹20-lakh crore economic relief package titled Atmanirbhar Bharat Abhiyan. It aimed at micro, small and medium enterprises (MSMEs), non-banking financial companies (NBFCs) and at some individuals. The government has proposed to offer collateral-free loans to MSMEs which will be fully guaranteed by the Centre. All MSMEs with a turnover of up to ₹100 crore and with outstanding credit of up to ₹25 crore will be eligible to borrow up to 20% of their total outstanding credit as on February 29, 2020. These loans will have a four-year tenure and the scheme will be open until October 31. A total of ₹3-lakh crore has been allocated for this."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "NBFCs, housing finance companies and micro finance institutions are finding it difficult to raise debt capital due to a confidence crisis in the debt markets. The government has, therefore, announced a special liquidity scheme of ₹30,000 crore to pick up investment grade debt paper from both primary and secondary markets. Such paper will be fully guaranteed by the government.  A total of ₹45,000 crore has been set aside for this Partial Credit Guarantee Scheme 2.0 that will offer liquidity to paper rated AA and below and even unrated paper."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:6",
+      "dialog_node": "response_5_1590243328126",
+      "previous_sibling": "response_4_1590243258277"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Ministry of Labour and Employment has issued advisories to employers to not terminate their employees from their jobs or reduce their wages. A recent advisory by the Ministry of Labour and Employment to all public and private employers to support their employees and workers will come as a relief for them.  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The Ministry of Labour and Employment has issued advisories to public and private employers and establishments to not terminate their employees, particularly casual or contractual employees, from their jobs or reduce their wages."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "As per the advisory, if any worker takes leave, he or she should be deemed to be on duty without any consequential deduction in wages for this period. Further, if the place of employment is to be made non-operational due to Covid 19, the employees of such unit will be deemed to be on duty.  The advisory also realizes that the termination of the employee from the job or reduction in wages in this scenario will further deepen the crises and will not only weaken the financial condition of the employee but also hamper their morale to combat their fight with this epidemic."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:4",
+      "dialog_node": "response_10_1590242800699",
+      "previous_sibling": "response_10_1590242232657"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "COVID-19 Updates as on 23.05.2020 :- ACTIVE CASES : 69,597 DISCHARGED CASES : 51784 DEATH CASES : 3720"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Type 'Menu' for the options"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1590238922381",
+      "conditions": "@option_details:1",
+      "dialog_node": "response_9_1590239181785"
+    },
+    {
+      "type": "standard",
+      "title": "Other_Info",
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#other_info",
+      "dialog_node": "node_3_1590248482780",
+      "previous_sibling": "node_6_1590245011019"
+    },
+    {
+      "type": "standard",
+      "title": "Thank_You",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank You! I'm glad that I was able to help."
+              },
+              {
+                "text": "Thanks and Bye! Hoping to serve you again when needed."
+              },
+              {
+                "text": "Thank You! Maintain proper care"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#thank_you",
+      "dialog_node": "node_2_1590237857032",
+      "previous_sibling": "node_3_1590248482780"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi ! Looking for COVID19 Crisis Help and Information from the Government of India? I can help you."
+              },
+              {
+                "text": "Hi ! I can provide you the information and help regarding COVID19 from the Government of India."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1590245011019"
+      },
+      "conditions": "#Greetings",
+      "dialog_node": "node_8_1590236857055",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_2_1590237857032",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please choose from the following options :-\n1. Latest Updates on Coronavirus pandemic in India\n2. Professional Advice to every citizen of country\n3. Advice and help to migrant labourers\n4. Advice to private sector employees\n5. Advice to public sector employees\n6. Business related information during COVID19\n7. Authenticate news - Myth Busters\n8. COVID19 HelpLine\nFor other info, please type your queries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#menu_info",
+      "dialog_node": "node_6_1590245011019",
+      "previous_sibling": "node_8_1590236857055"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "1"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "COVID Crisis Communicating BOT",
+  "language": "en",
+  "description": ""
+}
